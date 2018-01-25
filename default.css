@@ -1,0 +1,28 @@
+/* default.css */
+* { margin: 0px; padding: 0px; }
+body { background-color: #ddd; }
+#container { width: 800px; min-height: 600px; 
+			 border: 1px solid #aaa;
+			 background-color: #fff; 
+			 margin: 0px auto;
+			 box-sizing: border-box;
+			 padding: 10px;
+}
+
+#header { width: 100%; 
+		background-color: #aaa; }
+#menu { width: 100%; 
+	background-color: #ddd;  }
+
+#menu ul { list-style: none; display: table; }
+#menu ul li { list-style: none; float: left; 
+				padding: 5px; margin-right: 10px; 
+				
+}
+
+#menu ul li:hover { background-color: #aaa; color: #fff; }
+#menu ul li a { text-decoration: none;  }
+#menu ul li a:hover { color: #fff;  }
+#left-navi {}
+#content {}
+#footer {}
